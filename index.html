@@ -84,8 +84,8 @@
 								<p>Bergabunglah bersama kami untuk mendidik generasi muda yang tidak hanya unggul dalam
 									akademik,
 									namun juga berkarakter kuat sesuai tuntunan Islam.</p>
-								<a href="contacts.html" title="" class="btn-default">Daftar PPDB 2024 <i
-										class="fa fa-long-arrow-alt-right"></i></a>
+								<a data-toggle="modal" data-target="#exampleModal" class="btn-default">Daftar PPDB 2024
+									<i class="fa fa-long-arrow-alt-right"></i></a>
 							</div>
 						</div>
 						<div class="col-lg-5 col-md-5">
@@ -309,9 +309,10 @@
 
 				<div class="row mt-5 " id="contacts">
 					<div class="mx-auto">
-						<a href="contacts.html" class="btn-default mr-3">Daftar Online <i
+						<a data-toggle="modal" data-target="#exampleModal" class="btn-default mr-3">Daftar Online <i
 								class="fa fa-long-arrow-alt-right"></i></a>
-						<a href="contacts.html" class="btn-default">Hubungi Whatsapp <i class="fa fa-comments"></i></a>
+						<a href="https://api.whatsapp.com/send/?phone=6281328109094&text&type=phone_number&app_absent=0"
+							class="btn-default">Hubungi Whatsapp <i class="fa fa-comments"></i></a>
 					</div>
 				</div>
 
@@ -379,6 +380,59 @@
 			</div>
 		</footer><!--footer end-->
 
+		<!-- Modal -->
+		<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+			aria-hidden="true">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title text-dark" id="exampleModalLabel">Penerimaan Peserta Didik Baru</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<form id="next-form" onsubmit="handleSubmit(event)">
+						<div class="modal-body">
+							<div class="col-md-12">
+								<div class="abt-col">
+									<h3 class="text-dark">Lorem ipsum dolor sit amet.</h3>
+									<p class="display-6">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint
+										iure corrupti
+										beatae rerum, eaque fugiat odit consectetur facilis. Nemo accusantium omnis non
+										sed laboriosam, voluptas excepturi sequi consequuntur iste dolorum!
+									</p>
+								</div><!--abt-col end-->
+							</div>
+							<div class="mt-3">
+								<div class="form-group col-md-12">
+									<label class="text-dark" for="exampleInputnma1">Nama </label>
+									<input type="text" id="exampleInputnma1" class="form-control" name="name"
+										aria-describedby="emailHelp" required>
+								</div>
+								<div class="form-group col-md-12">
+									<label class="text-dark" for="exampleInputEmail1">Email </label>
+									<input type="email" id="exampleInputEmail1" class="form-control" name="email"
+										aria-describedby="emailHelp" required>
+								</div>
+								<div class="form-group col-md-12">
+									<label class="text-dark" for="exampleInputEtelp">No Telp </label>
+									<input type="tel" id="exampleInputEtelp" class="form-control" name="phone"
+										aria-describedby="emailHelp" required>
+								</div>
+							</div>
+						</div>
+						<div class="modal-footer">
+
+							<button type="submit" class="btn btn-primary" style="background-color: #135E9E;">Lanjut
+								Formulir
+								Registrasi</button>
+						</div>
+					</form>
+
+				</div>
+			</div>
+		</div>
+
 		<!--back to top begin-->
 		<button class="back-to-top">
 			<i class="fas fa-arrow-up"></i>
@@ -387,7 +441,23 @@
 
 	</div>
 
+	<script>
+		function handleSubmit(event) {
+			event.preventDefault(); // Prevent the default form submission
 
+			// Retrieve form data
+			const form = event.target;
+			const formData = new FormData(form);
+
+			// Convert FormData to an object
+			const params = new URLSearchParams();
+			formData.forEach((value, key) => {
+				params.append(key, value);
+			});
+			window.location.href = '/register.html?' + params.toString();
+		}
+
+	</script>
 
 	<script src="assets/js/jquery.js"></script>
 	<script src="assets/js/bootstrap.min.js"></script>
