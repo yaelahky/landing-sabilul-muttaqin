@@ -821,12 +821,11 @@ footer {
 //  PAGER SECTION 
 
 .pager-section {
-	background: url(../img/pager-bg.png), #f2f7fd;
+	background: #f2f7fd;
 	background-repeat: no-repeat;
 	background-position: right center;
 	padding: 75px 0 85px;
 	&.blog-version {
-		background-image: url(../img/blogger.jpg);
 		padding: 169px 0 242px;
 		position: relative;
 		background-position: center;

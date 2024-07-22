@@ -1106,7 +1106,7 @@ footer .bottom-footer .social-links {
     text-align: right;
 }
 .pager-section {
-    background: url(../img/pager-bg.png), #f2f7fd;
+    background: #f2f7fd;
     background-repeat: no-repeat;
     background-position: 100%;
     padding: 75px 0 85px;
