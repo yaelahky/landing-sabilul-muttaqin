@@ -36,9 +36,9 @@ p {
 	@include transition(all 0.4s ease-in-out);
 	&:hover {
 		color: #fff;
-		background-color: #f37335;
+		background-color: #008202;
 		i {
-			color: #f37335;
+			color: #008202;
 		}
 	}
 	i {

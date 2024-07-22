@@ -27,7 +27,7 @@
 		background-position: top right;
 	}
 	.main-title {
-		color: #f37335;
+		color: #008202;
 		font-size: 182px;
 		font-weight: 600;
 		position: absolute;
@@ -50,7 +50,7 @@
 			padding-right: 20px;
 			span {
 				display: inline-block;
-				color: #f37335;
+				color: #008202;
 				position: relative;
 				&:hover {
 					&:before {
@@ -66,7 +66,7 @@
 					left: 0;
 					width: 100%;
 					height: 2px;
-					background-color: #f37335;
+					background-color: #008202;
 					opacity: 1;
 					visibility: visible;
 					@include transition(all 0.4s ease-in-out);
@@ -126,7 +126,7 @@
 				@include transform(translateY(-50%));
 				@include transition(all 0.4s ease-in-out);
 				&:hover {
-					color: #F37335;
+					color: #008202;
 				}
 			}
 		}
@@ -145,7 +145,7 @@
 		font-weight: 700;
 		margin-bottom: 7px;
 		> span {
-			color: #f37335;
+			color: #008202;
 		}
 	}
 	p {
@@ -268,7 +268,7 @@
 				height: 42px;
 				line-height: 42px;
 				border-radius: 100px;
-				background:linear-gradient(to bottom, #fdc830, #f37335);
+				background:linear-gradient(to bottom, #008202, #008202);
 				text-align: center;
 			}
 		}
@@ -341,7 +341,7 @@
 					bottom: -20px;
 					right: 20px;
 					width: 40px;
-					background:linear-gradient(to bottom, #fdc830, #f37335);
+					background:linear-gradient(to bottom, #008202, #008202);
 					z-index: 99;
 					text-align: center;
 					border-radius: 30px;
@@ -631,7 +631,7 @@
 
 .newsletter-section {	
 	.newsletter-sec {
-		background:linear-gradient(to right, #fdc830, #f37335);
+		background:linear-gradient(to right, #008202, #008202);
 		background-repeat: no-repeat;
 		padding: 57px 100px 55px;
 		border-radius: 40px;
@@ -923,7 +923,7 @@ footer {
 		}
 	}
 	.page-titlee {
-		color: #f37335;
+		color: #008202;
 		font-size: 162.6px;
 		font-weight: 600;
 		opacity: 0.10;
@@ -961,7 +961,7 @@ footer {
 	.act-inffo {
 		> span {
 			text-transform: uppercase;
-			color: #f37335;
+			color: #008202;
 			font-size: 14.23px;
 			font-weight: 500;
 			font-family: $secondary-font;
@@ -1063,7 +1063,7 @@ footer {
 		}
 		> span {
 			display: inline-block;
-			color: #f37335;
+			color: #008202;
 			font-size: 14.23px;
 			font-weight: 500;
 			text-transform: uppercase;
@@ -1112,7 +1112,7 @@ footer {
 				left: 0;
 				width: 100%;
 				height: 2px;
-				background-color: #f37335;
+				background-color: #008202;
 				opacity: 0;
 				visibility: hidden;
 				@include transition(all 0.4s ease-in-out);
@@ -1198,8 +1198,8 @@ footer {
 				font-size: 18px;
 				font-family: $secondary-font;
 				&.active {
-					border-color: #f37335 !important;
-					color: #f37335; 
+					border-color: #008202 !important;
+					color: #008202; 
 				}
 			}
 		}
@@ -1249,7 +1249,7 @@ footer {
 				}
 				.mkd-info {
 					padding: 41px 20px 35px;
-					background:linear-gradient(to bottom, #fdc830, #f37335);
+					background:linear-gradient(to bottom, #008202, #008202);
 					text-align: center;
 					height: 100%;
 					&.bg-2 {
@@ -1454,7 +1454,7 @@ footer {
 		}
 		> span {
 			display: block;
-			color: #f37335;
+			color: #008202;
 			font-size: 12.19px;
 			font-style: italic;
 			position: relative;
@@ -1585,7 +1585,7 @@ footer {
 					color: #2b2b2b;
 					font-size: 18.29px;
 					&:hover {
-						color: #F37335;
+						color: #008202;
 					}
 				}
 				span {
@@ -1612,7 +1612,7 @@ footer {
 						margin-bottom: 3px;
 						font-weight: 500;
 						&:hover {
-							color: #F37335;
+							color: #008202;
 						}
 					}
 					> span {
@@ -1653,7 +1653,7 @@ footer {
 					font-weight: 500;
 				}
 				&:hover {
-					color: #F37335;
+					color: #008202;
 					a {
 						color: #2b2b2b;
 					}
@@ -1690,7 +1690,7 @@ footer {
 					font-weight: 500;
 					font-family: $secondary-font;
 					&:hover {
-						color: #F37335;
+						color: #008202;
 					}
 				}
 			}
@@ -1743,7 +1743,7 @@ footer {
 						color: #2b2b2b;
 						font-size: 14px;
 						&.active {
-							background:linear-gradient(to left, #fdc830, #f37335);
+							background:linear-gradient(to left, #008202, #008202);
 							color: #fff;
 							@include radius(50%);
 						}
@@ -1823,7 +1823,7 @@ footer {
 							left: 0;
 							width: 16px;
 							height: 16px;
-							background:linear-gradient(to left, #fdc830, #f37335);
+							background:linear-gradient(to left, #008202, #008202);
 							@include transform(translateY(-50%));
 							@include radius(50%);
 						}
@@ -1935,7 +1935,7 @@ footer {
 			    	}
 			    	> span {
 			    		display: block;
-					    color: #f37335;
+					    color: #008202;
 					    font-size: 12.19px;
 					    font-style: italic;
 					    position: relative;
@@ -2224,7 +2224,7 @@ footer {
 
 .failed,
 .text-info {
-    background: #f37335;
+    background: #008202;
     padding: 10px;
     margin-bottom: 20px;
     color: #fff !important;
@@ -2252,7 +2252,7 @@ footer {
 		top: 50%;
 		left: 50%;
 		@include transform(translate(-50%, -50%));
-		color: #f37335;
+		color: #008202;
 		font-size: 300px;
 		font-weight: 600;
 		opacity: 0.05;
@@ -2265,7 +2265,7 @@ footer {
 		position: relative;
 		z-index: 99;
 		h2 {
-			color: #f37335;
+			color: #008202;
 			font-size: 150px;
 			font-weight: 700;
 			margin-bottom: 20px;
@@ -2286,7 +2286,7 @@ footer {
 				a {
 					background:linear-gradient(to left, #159957, #155799);
 					&:hover {
-						background:linear-gradient(to bottom, #fdc830, #f37335);
+						background:linear-gradient(to bottom, #008202, #008202);
 					}
 				}
 			}
@@ -2361,7 +2361,7 @@ footer {
 		.social-icons {
 			li {
 				a {
-					background:linear-gradient(to bottom, #fdc830, #f37335);
+					background:linear-gradient(to bottom, #008202, #008202);
 				}
 			}
 		}
@@ -2573,7 +2573,7 @@ footer {
 				width: 50px;
 				height: 50px;
 				line-height: 50px;
-				background:linear-gradient(to left, #fdc830, #f37335);
+				background:linear-gradient(to left, #008202, #008202);
 				@include radius(50%);
 				text-align: center;
 			}
@@ -2704,7 +2704,7 @@ footer {
 		color: #fff;
 		@include radius(30px);
 		z-index: 9;
-		background: linear-gradient(to bottom, #fdc830, #f37335);
+		background: linear-gradient(to bottom, #008202, #008202);
 	}
 }
 
@@ -2718,7 +2718,7 @@ footer {
 		font-size: 36px;
 		font-weight: 600;
 		@include radius(50%);
-		background:linear-gradient(to bottom, #fdc830, #f37335);
+		background:linear-gradient(to bottom, #008202, #008202);
 		display: inline-block;
 		margin-bottom: 7px;
 	}
@@ -2794,7 +2794,7 @@ transition-duration: 3s;}
 						top: 0;
 						left: 0;
 						width: 100%;
-						background:linear-gradient(to bottom, #fdc830, #f37335);
+						background:linear-gradient(to bottom, #008202, #008202);
 						height: 100%;
 						z-index: -1;
 						@include radius(50%);
@@ -2803,7 +2803,7 @@ transition-duration: 3s;}
 					@include transition(all 0.4s ease-in-out);
 					&:hover {
 						&:before {
-							background:linear-gradient(to top, #fdc830, #f37335);
+							background:linear-gradient(to top, #008202, #008202);
 						}
 					}
 				}
@@ -2814,7 +2814,7 @@ transition-duration: 3s;}
 		padding-left: 20px;
 		box-sizing: border-box;
 		> h3 {
-			color: #f37335;
+			color: #008202;
 			font-size: 20px;
 			font-style: italic;
 			margin-bottom: 21px;
@@ -2950,7 +2950,7 @@ transition-duration: 3s;}
 							background-color: #155799;
 						}
 						&.bg-clr3 {
-							background-color: #fdc830;
+							background-color: #008202;
 						}
 						&.bg-clr4 {
 							background-color: #159957;
@@ -2976,7 +2976,7 @@ transition-duration: 3s;}
 			li {
 				display: block;
 				.dd-info {
-					background:linear-gradient(180deg,#fdc830,#f37335);
+					background:linear-gradient(180deg,#008202,#008202);
 					padding: 35px 20px;
 					h3 {
 						color: #fff;
@@ -3284,12 +3284,12 @@ transition-duration: 3s;}
 	overflow: hidden;
 	border-radius: 50%;
 	color: #fff;
-	background-image: linear-gradient(180deg, #fdc830, #f37335);
+	background-image: linear-gradient(180deg, #008202, #008202);
 }
 
 .back-to-top:hover {
 	transition: 10s;
-	background-image: linear-gradient(210deg, #fdc830, #f37335);
+	background-image: linear-gradient(210deg, #008202, #008202);
 }
 
 
