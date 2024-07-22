@@ -1055,7 +1055,7 @@ footer .widget-contact ul li .contact-info > img {
     vertical-align: top;
     margin-right: 5px;
     position: relative;
-    top: 6px;
+    /* top: 6px; */
 }
 footer .widget-contact ul li .contact-tt {
     display: inline-block;
