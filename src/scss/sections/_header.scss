@@ -69,7 +69,7 @@ header {
 						font-family: $secondary-font;
 						position: relative;
 						&:hover {
-							color: #1260a0;
+							color: #008202;
 						}
 						&:before {
 							content: '';
@@ -78,7 +78,7 @@ header {
 							left: 0;
 							width: 0;
 							height: 4px;
-							background-color: #156788;
+							background-color: #008202;
 							border-radius: 10px;
 							opacity: 0;
 							visibility: hidden;
