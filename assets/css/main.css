@@ -214,20 +214,21 @@ p {
     font-size: 18.29px;
     font-weight: 500;
     font-family: Poppins, sans-serif;
-    background-color: #135e9e;
+    background-color: #008202;
     height: 40px;
     line-height: 40px;
-    padding: 0 60px;
+    padding: 0 40px 0 60px;
     position: relative;
     border-radius: 30px;
     transition: all 0.4s ease-in-out;
+    cursor: pointer;
 }
 .btn-default:hover {
     color: #fff;
-    background-color: #008202;
+    background-color: #016702;
 }
 .btn-default:hover i {
-    color: #008202;
+    color: #016702;
 }
 .btn-default i {
     background-color: #fff;
@@ -236,7 +237,7 @@ p {
     line-height: 28px;
     text-align: center;
     border-radius: 50px;
-    color: #155799;
+    color: #008202;
     position: absolute;
     top: 50%;
     transition: all 0.4s ease-in-out;
@@ -1383,13 +1384,13 @@ footer .bottom-footer .social-links {
     margin-right: 0;
 }
 .page-content {
-    padding: 140px 0;
+    padding: 100px 0;
 }
 .page-content.style2 {
-    padding: 43px 0 140px;
+    padding: 43px 0 100px;
 }
 .page-content.p80 {
-    padding: 80px 0 140px;
+    padding: 80px 0 100px;
 }
 .page-content .teachers-section {
     padding-bottom: 0;
@@ -2209,7 +2210,7 @@ footer .bottom-footer .social-links {
     display: block;
     width: 100%;
     height: 2px;
-    background-color: #155799;
+    background-color: #404040;
     margin-bottom: 5px;
     transition: all 0.4s ease-in-out;
 }
@@ -2232,7 +2233,7 @@ footer .bottom-footer .social-links {
     top: 0;
     left: 0;
     width: 300px;
-    background-color: #f79133;
+    background-color: #008202;
     -ms-box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
     -o-box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
