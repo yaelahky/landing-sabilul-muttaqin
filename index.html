@@ -5,7 +5,8 @@
 	<meta charset="UTF-8">
 	<title>SMP Boarding School Sabilul Muttaqin</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="SMP Boarding School Sabilul Muttaqin - Bergabunglah bersama kami untuk mendidik generasi muda yang tidak hanya unggul dalam akademik, namun juga berkarakter kuat sesuai tuntunan Islam." />
+	<meta name="description"
+		content="SMP Boarding School Sabilul Muttaqin - Bergabunglah bersama kami untuk mendidik generasi muda yang tidak hanya unggul dalam akademik, namun juga berkarakter kuat sesuai tuntunan Islam." />
 	<meta name="author" content="SMP Boarding School Sabilul Muttaqin">
 	<meta name="keywords" content="SMP Boarding School Sabilul Muttaqin" />
 	<link rel="icon" href="assets/image/logop.png">
@@ -99,11 +100,13 @@
 									akademik,
 									namun juga berkarakter kuat sesuai tuntunan Islam.</p>
 								<div>
-									<a data-toggle="modal" data-target="#modalPendaftaran" class="btn-default">Daftar PPDB 2024
+									<a data-toggle="modal" data-target="#modalPendaftaran" class="btn-default">Daftar
+										PPDB 2024
 										<i class="fa fa-long-arrow-alt-right"></i>
 									</a>
 									<div style="height: 10px; width: 10px;"></div>
-									<a data-toggle="modal" data-target="#modalPendaftaran" class="btn-default">Pendaftaran Pondok
+									<a data-toggle="modal" data-target="#modalPendaftaranPondok"
+										class="btn-default">Pendaftaran Pondok
 										<i class="fa fa-long-arrow-alt-right"></i>
 									</a>
 								</div>
@@ -444,6 +447,51 @@
 				</div>
 			</div>
 		</div>
+		<div class="modal fade" id="modalPendaftaranPondok" tabindex="-1" role="dialog"
+			aria-labelledby="exampleModalLabelPondok" aria-hidden="true">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title text-dark" id="exampleModalLabelPondok">Pendaftaran Pondok</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<form id="next-form" onsubmit="handleSubmit(event, 'register-pondok.html')">
+						<div class="modal-body">
+							<div class="col-md-12">
+								<div class="abt-col">
+								</div><!--abt-col end-->
+							</div>
+							<div class="mt-3">
+								<div class="form-group col-md-12">
+									<label class="text-dark" for="exampleInputnma1">Nama </label>
+									<input type="text" id="exampleInputnma1" class="form-control" name="name"
+										aria-describedby="emailHelp" required>
+								</div>
+								<div class="form-group col-md-12">
+									<label class="text-dark" for="exampleInputEmail1">Email </label>
+									<input type="email" id="exampleInputEmail1" class="form-control" name="email"
+										aria-describedby="emailHelp" required>
+								</div>
+								<div class="form-group col-md-12">
+									<label class="text-dark" for="exampleInputEtelp">No Telp </label>
+									<input type="tel" id="exampleInputEtelp" class="form-control" name="phone"
+										aria-describedby="emailHelp" required>
+								</div>
+							</div>
+						</div>
+						<div class="modal-footer">
+
+							<button type="submit" class="btn btn-primary" style="background-color: #008202;">Lanjut
+								Pendaftaran
+								Pondok</button>
+						</div>
+					</form>
+
+				</div>
+			</div>
+		</div>
 
 		<!--back to top begin-->
 		<button class="back-to-top">
@@ -454,7 +502,7 @@
 	</div>
 
 	<script>
-		function handleSubmit(event) {
+		function handleSubmit(event, page = "register.html") {
 			event.preventDefault(); // Prevent the default form submission
 
 			// Retrieve form data
@@ -466,7 +514,7 @@
 			formData.forEach((value, key) => {
 				params.append(key, value);
 			});
-			window.location.href = '/register.html?' + params.toString();
+			window.location.href = `/${page}?` + params.toString();
 		}
 
 	</script>
